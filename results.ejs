@@ -1,0 +1,11 @@
+<h1>FIRST PAGE</h1>
+<ul>
+<% data["search"].forEach(function(movie){
+	%>
+	<li>
+	<strong><%= movie["Title"] %></strong> - <strong><%= movie["year"] %></strong>
+    </li>
+})%>
+</ul>
+
+<a href="/">Search Again!</a>
